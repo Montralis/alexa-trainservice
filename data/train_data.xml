@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ResC ver="2.0" producer="5.45.RMV.X.P.JPL.7.2.1.00 (customer/hcurmv/release/24.2.0) [2024-03-19]" lang="de" planId="1718037599-1716290195-1718039069-1713880324-planid=1718037599-planid0=1718037599-planid_adr=1716290195-planid_poi=1718039069-planid_lmk=1713880324" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://rmv.hafas.de/xsd/hafasXMLStationBoard_2_0.xsd">
+<SBRes dir="D">
+<SBReq dir="D">
+<Start>
+<Station>
+<ExternalId pooluic="80">3004734</ExternalId>
+<HafasName>
+<Text>Darmstadt Hauptbahnhof</Text>
+</HafasName>
+</Station>
+</Start>
+<StartT time="18:40" date="20240611"/>
+<EndT time="19:35" date="20240611" />
+</SBReq>
+<JourneyList>
+<Journey trainId="15241608026" journeyId="35364">
+<JourneyAttributeList>
+<JourneyAttribute from="0" to="28">
+<Attribute priority="-1" type="NAME">
+<AttributeVariant type="NORMAL">
+<Text>S3</Text>
+</AttributeVariant>
+</Attribute>
+</JourneyAttribute>
+<JourneyAttribute from="0" to="28">
+<Attribute priority="-1" type="CATEGORY">
+<AttributeCode>3</AttributeCode>
+<AttributeVariant type="LONG">
+<Text>S-Bahn</Text>
+</AttributeVariant>
+<AttributeVariant type="SHORT">
+<Text>S42</Text>
+</AttributeVariant>
+<AttributeVariant type="NORMAL">
+<Text>S</Text>
+</AttributeVariant>
+</Attribute>
+</JourneyAttribute>
+<JourneyAttribute from="0" to="28">
+<Attribute priority="-1" type="INTERNALCATEGORY">
+<AttributeVariant type="NORMAL">
+<Text>S42</Text>
+</AttributeVariant>
+</Attribute>
+</JourneyAttribute>
+<JourneyAttribute from="0" to="28">
+<Attribute priority="-1" type="OPERATOR">
+<AttributeVariant type="LONG">
+<Text>DB Regio AG S-Bahn Rhein-Main</Text>
+</AttributeVariant>
+<AttributeVariant type="SHORT">
+<Text>DBR</Text>
+</AttributeVariant>
+<AttributeVariant type="NORMAL">
+<Text>DBRSBRM</Text>
+</AttributeVariant>
+</Attribute>
+</JourneyAttribute>
+<JourneyAttribute from="0" to="28">
+<Attribute priority="-1" type="NUMBER">
+<AttributeVariant type="NORMAL">
+<Text>S3</Text>
+</AttributeVariant>
+</Attribute>
+</JourneyAttribute>
+<JourneyAttribute from="0" to="28">
+<Attribute priority="-1" type="DIRECTION">
+<AttributeVariant type="NORMAL">
+<Text>Bad Soden (Taunus) Bahnhof</Text>
+</AttributeVariant>
+</Attribute>
+</JourneyAttribute>
+<JourneyAttribute from="0" to="28">
+<Attribute priority="560" type="NORMAL">
+<AttributeCode>EH</AttributeCode>
+<AttributeVariant type="NORMAL">
+<Text>Fahrzeuggebundene Einstiegshilfe vorhanden</Text>
+</AttributeVariant>
+</Attribute>
+</JourneyAttribute>
+<JourneyAttribute from="0" to="28">
+<Attribute priority="610" type="NORMAL">
+<AttributeCode>KL</AttributeCode>
+<AttributeVariant type="NORMAL">
+<Text>Klimaanlage</Text>
+</AttributeVariant>
+</Attribute>
+</JourneyAttribute>
+<JourneyAttribute from="0" to="28">
+<Attribute priority="710" type="NORMAL">
+<AttributeCode>WV</AttributeCode>
+<AttributeVariant type="NORMAL">
+<Text>WLAN verfÃ¼gbar</Text>
+</AttributeVariant>
+</Attribute>
+</JourneyAttribute>
+<JourneyAttribute from="0" to="255">
+<Attribute priority="-1" type="INFO">
+<AttributeCode>FD</AttributeCode>
+<AttributeVariant type="NORMAL">
+<Text>35364</Text>
+</AttributeVariant>
+</Attribute>
+</JourneyAttribute>
+<JourneyAttribute from="0" to="28">
+<Attribute priority="-1" type="EXTERNALID">
+<AttributeVariant type="NORMAL">
+<Text>2024</Text>
+</AttributeVariant>
+</Attribute>
+</JourneyAttribute>
+</JourneyAttributeList>
+<MainStop>
+<BasicStop index="0">
+<Location x="8631146" y="49871938" type="WGS84">
+<Station>
+<ExternalId pooluic="80">3004734</ExternalId>
+<HafasName>
+<Text>Darmstadt Hauptbahnhof</Text>
+</HafasName>
+</Station>
+</Location>
+<Dep>
+<Time>19:05</Time>
+<Delay>2</Delay>
+<Platform>3</Platform>
+</Dep>
+</BasicStop>
+</MainStop>
+<Product name="S3" image="s42"/>
+<LastRTInfo time="18:35" date="20240611" />
+</Journey>
+<Journey trainId="15241608027" journeyId="35366">
+<JourneyAttributeList>
+<JourneyAttribute from="0" to="28">
+<Attribute priority="-1" type="NAME">
+<AttributeVariant type="NORMAL">
+<Text>S3</Text>
+</AttributeVariant>
+</Attribute>
+</JourneyAttribute>
+<JourneyAttribute from="0" to="28">
+<Attribute priority="-1" type="CATEGORY">
+<AttributeCode>3</AttributeCode>
+<AttributeVariant type="LONG">
+<Text>S-Bahn</Text>
+</AttributeVariant>
+<AttributeVariant type="SHORT">
+<Text>S42</Text>
+</AttributeVariant>
+<AttributeVariant type="NORMAL">
+<Text>S</Text>
+</AttributeVariant>
+</Attribute>
+</JourneyAttribute>
+<JourneyAttribute from="0" to="28">
+<Attribute priority="-1" type="INTERNALCATEGORY">
+<AttributeVariant type="NORMAL">
+<Text>S42</Text>
+</AttributeVariant>
+</Attribute>
+</JourneyAttribute>
+<JourneyAttribute from="0" to="28">
+<Attribute priority="-1" type="OPERATOR">
+<AttributeVariant type="LONG">
+<Text>DB Regio AG S-Bahn Rhein-Main</Text>
+</AttributeVariant>
+<AttributeVariant type="SHORT">
+<Text>DBR</Text>
+</AttributeVariant>
+<AttributeVariant type="NORMAL">
+<Text>DBRSBRM</Text>
+</AttributeVariant>
+</Attribute>
+</JourneyAttribute>
+<JourneyAttribute from="0" to="28">
+<Attribute priority="-1" type="NUMBER">
+<AttributeVariant type="NORMAL">
+<Text>S3</Text>
+</AttributeVariant>
+</Attribute>
+</JourneyAttribute>
+<JourneyAttribute from="0" to="28">
+<Attribute priority="-1" type="DIRECTION">
+<AttributeVariant type="NORMAL">
+<Text>Bad Soden (Taunus) Bahnhof</Text>
+</AttributeVariant>
+</Attribute>
+</JourneyAttribute>
+<JourneyAttribute from="0" to="28">
+<Attribute priority="560" type="NORMAL">
+<AttributeCode>EH</AttributeCode>
+<AttributeVariant type="NORMAL">
+<Text>Fahrzeuggebundene Einstiegshilfe vorhanden</Text>
+</AttributeVariant>
+</Attribute>
+</JourneyAttribute>
+<JourneyAttribute from="0" to="28">
+<Attribute priority="610" type="NORMAL">
+<AttributeCode>KL</AttributeCode>
+<AttributeVariant type="NORMAL">
+<Text>Klimaanlage</Text>
+</AttributeVariant>
+</Attribute>
+</JourneyAttribute>
+<JourneyAttribute from="0" to="28">
+<Attribute priority="710" type="NORMAL">
+<AttributeCode>WV</AttributeCode>
+<AttributeVariant type="NORMAL">
+<Text>WLAN verfÃ¼gbar</Text>
+</AttributeVariant>
+</Attribute>
+</JourneyAttribute>
+<JourneyAttribute from="0" to="255">
+<Attribute priority="-1" type="INFO">
+<AttributeCode>FD</AttributeCode>
+<AttributeVariant type="NORMAL">
+<Text>35366</Text>
+</AttributeVariant>
+</Attribute>
+</JourneyAttribute>
+<JourneyAttribute from="0" to="28">
+<Attribute priority="-1" type="EXTERNALID">
+<AttributeVariant type="NORMAL">
+<Text>2021</Text>
+</AttributeVariant>
+</Attribute>
+</JourneyAttribute>
+</JourneyAttributeList>
+<MainStop>
+<BasicStop index="0">
+<Location x="8631146" y="49871938" type="WGS84">
+<Station>
+<ExternalId pooluic="80">3004734</ExternalId>
+<HafasName>
+<Text>Darmstadt Hauptbahnhof</Text>
+</HafasName>
+</Station>
+</Location>
+<Dep>
+<Time>19:35</Time>
+<Delay>0</Delay>
+<Platform>3</Platform>
+</Dep>
+</BasicStop>
+</MainStop>
+<Product name="S3" image="s42"/>
+<LastRTInfo time="16:35" date="20240611" />
+</Journey>
+</JourneyList>
+<NextUpdate time="19:05" date="20240611"/>
+</SBRes>
+</ResC>

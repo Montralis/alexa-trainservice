@@ -1,0 +1,437 @@
+{
+    "ResC": {
+        "@ver": "2.0",
+        "@producer": "5.45.RMV.X.P.JPL.7.2.1.00 (customer/hcurmv/release/24.2.0) [2024-03-19]",
+        "@lang": "de",
+        "@planId": "1718037599-1716290195-1718039069-1713880324-planid=1718037599-planid0=1718037599-planid_adr=1716290195-planid_poi=1718039069-planid_lmk=1713880324",
+        "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+        "@xsi:noNamespaceSchemaLocation": "http://rmv.hafas.de/xsd/hafasXMLStationBoard_2_0.xsd",
+        "SBRes": {
+            "@dir": "D",
+            "SBReq": {
+                "@dir": "D",
+                "Start": {
+                    "Station": {
+                        "ExternalId": {
+                            "@pooluic": "80",
+                            "#text": "3004734"
+                        },
+                        "HafasName": {
+                            "Text": "Darmstadt Hauptbahnhof"
+                        }
+                    }
+                },
+                "StartT": {
+                    "@time": "18:40",
+                    "@date": "20240611"
+                },
+                "EndT": {
+                    "@time": "19:35",
+                    "@date": "20240611"
+                }
+            },
+            "JourneyList": {
+                "Journey": [
+                    {
+                        "@trainId": "15241608026",
+                        "@journeyId": "35364",
+                        "JourneyAttributeList": {
+                            "JourneyAttribute": [
+                                {
+                                    "@from": "0",
+                                    "@to": "28",
+                                    "Attribute": {
+                                        "@priority": "-1",
+                                        "@type": "NAME",
+                                        "AttributeVariant": {
+                                            "@type": "NORMAL",
+                                            "Text": "S3"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@from": "0",
+                                    "@to": "28",
+                                    "Attribute": {
+                                        "@priority": "-1",
+                                        "@type": "CATEGORY",
+                                        "AttributeCode": "3",
+                                        "AttributeVariant": [
+                                            {
+                                                "@type": "LONG",
+                                                "Text": "S-Bahn"
+                                            },
+                                            {
+                                                "@type": "SHORT",
+                                                "Text": "S42"
+                                            },
+                                            {
+                                                "@type": "NORMAL",
+                                                "Text": "S"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "@from": "0",
+                                    "@to": "28",
+                                    "Attribute": {
+                                        "@priority": "-1",
+                                        "@type": "INTERNALCATEGORY",
+                                        "AttributeVariant": {
+                                            "@type": "NORMAL",
+                                            "Text": "S42"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@from": "0",
+                                    "@to": "28",
+                                    "Attribute": {
+                                        "@priority": "-1",
+                                        "@type": "OPERATOR",
+                                        "AttributeVariant": [
+                                            {
+                                                "@type": "LONG",
+                                                "Text": "DB Regio AG S-Bahn Rhein-Main"
+                                            },
+                                            {
+                                                "@type": "SHORT",
+                                                "Text": "DBR"
+                                            },
+                                            {
+                                                "@type": "NORMAL",
+                                                "Text": "DBRSBRM"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "@from": "0",
+                                    "@to": "28",
+                                    "Attribute": {
+                                        "@priority": "-1",
+                                        "@type": "NUMBER",
+                                        "AttributeVariant": {
+                                            "@type": "NORMAL",
+                                            "Text": "S3"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@from": "0",
+                                    "@to": "28",
+                                    "Attribute": {
+                                        "@priority": "-1",
+                                        "@type": "DIRECTION",
+                                        "AttributeVariant": {
+                                            "@type": "NORMAL",
+                                            "Text": "Bad Soden (Taunus) Bahnhof"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@from": "0",
+                                    "@to": "28",
+                                    "Attribute": {
+                                        "@priority": "560",
+                                        "@type": "NORMAL",
+                                        "AttributeCode": "EH",
+                                        "AttributeVariant": {
+                                            "@type": "NORMAL",
+                                            "Text": "Fahrzeuggebundene Einstiegshilfe vorhanden"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@from": "0",
+                                    "@to": "28",
+                                    "Attribute": {
+                                        "@priority": "610",
+                                        "@type": "NORMAL",
+                                        "AttributeCode": "KL",
+                                        "AttributeVariant": {
+                                            "@type": "NORMAL",
+                                            "Text": "Klimaanlage"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@from": "0",
+                                    "@to": "28",
+                                    "Attribute": {
+                                        "@priority": "710",
+                                        "@type": "NORMAL",
+                                        "AttributeCode": "WV",
+                                        "AttributeVariant": {
+                                            "@type": "NORMAL",
+                                            "Text": "WLAN verf\u00c3\u00bcgbar"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@from": "0",
+                                    "@to": "255",
+                                    "Attribute": {
+                                        "@priority": "-1",
+                                        "@type": "INFO",
+                                        "AttributeCode": "FD",
+                                        "AttributeVariant": {
+                                            "@type": "NORMAL",
+                                            "Text": "35364"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@from": "0",
+                                    "@to": "28",
+                                    "Attribute": {
+                                        "@priority": "-1",
+                                        "@type": "EXTERNALID",
+                                        "AttributeVariant": {
+                                            "@type": "NORMAL",
+                                            "Text": "2024"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "MainStop": {
+                            "BasicStop": {
+                                "@index": "0",
+                                "Location": {
+                                    "@x": "8631146",
+                                    "@y": "49871938",
+                                    "@type": "WGS84",
+                                    "Station": {
+                                        "ExternalId": {
+                                            "@pooluic": "80",
+                                            "#text": "3004734"
+                                        },
+                                        "HafasName": {
+                                            "Text": "Darmstadt Hauptbahnhof"
+                                        }
+                                    }
+                                },
+                                "Dep": {
+                                    "Time": "19:05",
+                                    "Delay": "2",
+                                    "Platform": "3"
+                                }
+                            }
+                        },
+                        "Product": {
+                            "@name": "S3",
+                            "@image": "s42"
+                        },
+                        "LastRTInfo": {
+                            "@time": "18:35",
+                            "@date": "20240611"
+                        }
+                    },
+                    {
+                        "@trainId": "15241608027",
+                        "@journeyId": "35366",
+                        "JourneyAttributeList": {
+                            "JourneyAttribute": [
+                                {
+                                    "@from": "0",
+                                    "@to": "28",
+                                    "Attribute": {
+                                        "@priority": "-1",
+                                        "@type": "NAME",
+                                        "AttributeVariant": {
+                                            "@type": "NORMAL",
+                                            "Text": "S3"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@from": "0",
+                                    "@to": "28",
+                                    "Attribute": {
+                                        "@priority": "-1",
+                                        "@type": "CATEGORY",
+                                        "AttributeCode": "3",
+                                        "AttributeVariant": [
+                                            {
+                                                "@type": "LONG",
+                                                "Text": "S-Bahn"
+                                            },
+                                            {
+                                                "@type": "SHORT",
+                                                "Text": "S42"
+                                            },
+                                            {
+                                                "@type": "NORMAL",
+                                                "Text": "S"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "@from": "0",
+                                    "@to": "28",
+                                    "Attribute": {
+                                        "@priority": "-1",
+                                        "@type": "INTERNALCATEGORY",
+                                        "AttributeVariant": {
+                                            "@type": "NORMAL",
+                                            "Text": "S42"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@from": "0",
+                                    "@to": "28",
+                                    "Attribute": {
+                                        "@priority": "-1",
+                                        "@type": "OPERATOR",
+                                        "AttributeVariant": [
+                                            {
+                                                "@type": "LONG",
+                                                "Text": "DB Regio AG S-Bahn Rhein-Main"
+                                            },
+                                            {
+                                                "@type": "SHORT",
+                                                "Text": "DBR"
+                                            },
+                                            {
+                                                "@type": "NORMAL",
+                                                "Text": "DBRSBRM"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "@from": "0",
+                                    "@to": "28",
+                                    "Attribute": {
+                                        "@priority": "-1",
+                                        "@type": "NUMBER",
+                                        "AttributeVariant": {
+                                            "@type": "NORMAL",
+                                            "Text": "S3"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@from": "0",
+                                    "@to": "28",
+                                    "Attribute": {
+                                        "@priority": "-1",
+                                        "@type": "DIRECTION",
+                                        "AttributeVariant": {
+                                            "@type": "NORMAL",
+                                            "Text": "Bad Soden (Taunus) Bahnhof"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@from": "0",
+                                    "@to": "28",
+                                    "Attribute": {
+                                        "@priority": "560",
+                                        "@type": "NORMAL",
+                                        "AttributeCode": "EH",
+                                        "AttributeVariant": {
+                                            "@type": "NORMAL",
+                                            "Text": "Fahrzeuggebundene Einstiegshilfe vorhanden"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@from": "0",
+                                    "@to": "28",
+                                    "Attribute": {
+                                        "@priority": "610",
+                                        "@type": "NORMAL",
+                                        "AttributeCode": "KL",
+                                        "AttributeVariant": {
+                                            "@type": "NORMAL",
+                                            "Text": "Klimaanlage"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@from": "0",
+                                    "@to": "28",
+                                    "Attribute": {
+                                        "@priority": "710",
+                                        "@type": "NORMAL",
+                                        "AttributeCode": "WV",
+                                        "AttributeVariant": {
+                                            "@type": "NORMAL",
+                                            "Text": "WLAN verf\u00c3\u00bcgbar"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@from": "0",
+                                    "@to": "255",
+                                    "Attribute": {
+                                        "@priority": "-1",
+                                        "@type": "INFO",
+                                        "AttributeCode": "FD",
+                                        "AttributeVariant": {
+                                            "@type": "NORMAL",
+                                            "Text": "35366"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@from": "0",
+                                    "@to": "28",
+                                    "Attribute": {
+                                        "@priority": "-1",
+                                        "@type": "EXTERNALID",
+                                        "AttributeVariant": {
+                                            "@type": "NORMAL",
+                                            "Text": "2021"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "MainStop": {
+                            "BasicStop": {
+                                "@index": "0",
+                                "Location": {
+                                    "@x": "8631146",
+                                    "@y": "49871938",
+                                    "@type": "WGS84",
+                                    "Station": {
+                                        "ExternalId": {
+                                            "@pooluic": "80",
+                                            "#text": "3004734"
+                                        },
+                                        "HafasName": {
+                                            "Text": "Darmstadt Hauptbahnhof"
+                                        }
+                                    }
+                                },
+                                "Dep": {
+                                    "Time": "19:35",
+                                    "Delay": "0",
+                                    "Platform": "3"
+                                }
+                            }
+                        },
+                        "Product": {
+                            "@name": "S3",
+                            "@image": "s42"
+                        },
+                        "LastRTInfo": {
+                            "@time": "16:35",
+                            "@date": "20240611"
+                        }
+                    }
+                ]
+            },
+            "NextUpdate": {
+                "@time": "19:05",
+                "@date": "20240611"
+            }
+        }
+    }
+}
